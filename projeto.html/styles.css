@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin:  15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  
+}
+
+.galeria {
+  display:flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.manga {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.manga:hover {
+  transform: scale(1.05);
+}
+
+.manga img {
+  width: 250px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align:center;
+  padding: 15px;
+}
+
+.manga1 {
+  background-color:white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.4s;
+  width: auto;
+}
+
+.avl {
+  text-align: center;
+  padding: 50px;
+
+}
+
+.p {
+  text-align: center;
+
+}
+
+
+
+.a {
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.b {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex
+}
+
